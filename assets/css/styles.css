@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +13,6 @@ body {
     font-weight: 400;
 }
 
-/* Typography */
 h1, h2, h3, p, li, td {
     margin: 10px 0;
 }
@@ -58,14 +56,12 @@ li::marker, td:last-child {
     font-weight: 600;
 }
 
-/* Image Styles */
 #omelette-img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-/* Layout */
 main {
     width: 90%;
     max-width: 750px;
@@ -96,7 +92,6 @@ p {
     margin: 15px 0;
 }
 
-/* Lists */
 ol, ul {
     padding: 0 10px;
 }
@@ -105,7 +100,6 @@ li {
     padding-left: 15px;
 }
 
-/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -119,7 +113,6 @@ tr:not(:last-child) td {
     border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
-/* Footer */
 footer {
     padding: 10px;
     background-color: #fff;    

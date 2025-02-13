@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+/* Typography */
+h1, h2, h3, p, li, td {
+    margin: 10px 0;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+h2 {
+    margin: 15px 0;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+tr td:first-child {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+p, li, td {
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+b {
+    font-weight: 700;
+}
+
+li::marker, td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+/* Image Styles */
+#omelette-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Layout */
+main {
+    width: 90%;
+    max-width: 750px;
+    margin: 2rem auto;
+    padding: 30px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+section {
+    margin: 0 0;
+    padding: 15px 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+section:last-of-type,
+section:first-of-type {
+    border-bottom: none;
+}
+
+.preparation-container {
+    background: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+p {
+    margin: 15px 0;
+}
+
+/* Lists */
+ol, ul {
+    padding: 0 10px;
+}
+
+li {
+    padding-left: 15px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 7px;
+}
+
+tr:not(:last-child) td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    background-color: #fff;    
+}
+
+footer a {
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    color: hsl(332, 51%, 32%);
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 0.875rem;
+    }
+
+    main {
+        width: 90%;
+        margin: 2rem auto;
+        padding: 1.25rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+
+    p, li, td {
+        font-size: 0.875rem;
+    }
+
+    #omelette-img {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        padding: 0.9375rem 0;
+    }
+
+    .preparation-container {
+        padding: 1.25rem;
+    }
+
+    ol, ul {
+        padding: 0 0.625rem;
+    }
+
+    li {
+        padding-left: 0.9375rem;
+    }
+
+    td {
+        padding: 0.4375rem;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 0.875rem;
+    }
+
+    main {
+        width: 90%;
+        margin: 2rem auto;
+        padding: 1.25rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+
+    p, li, td {
+        font-size: 0.875rem;
+    }
+
+    #omelette-img {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        padding: 0.9375rem 0;
+    }
+
+    .preparation-container {
+        padding: 1.25rem;
+    }
+
+    ol, ul {
+        padding: 0 0.625rem;
+    }
+
+    li {
+        padding-left: 0.9375rem;
+    }
+
+    td {
+        padding: 0.4375rem;
+    }
+    }
+

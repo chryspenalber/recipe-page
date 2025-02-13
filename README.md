@@ -40,8 +40,8 @@ This is a simple recipe page built using semantic HTML and CSS. It is a structur
 
 - The following semantic HTML tags were used in this project:
 
-     `<!DOCTYPE html>`, `<html>`, `<head>`, `<meta>`, `<title>`, `<link>`, `<footer>`
-     `<body>`, `<header>`, `<main>`, `<section>`  
+     `<!DOCTYPE html>`, `<html>`, `<head>`, `<meta>`, `<title>`, `<link>`, `<footer>`\
+     `<body>`, `<header>`, `<main>`, `<section>`\ 
      `<h1>`, `<h2>`, `<h3>`, `<p>`, `<ul>`, `<ol>`, `<li>`, `<b>`, `<img>`, `<table>`, `<tr>`, `<td>`  
 
 ### What I learned

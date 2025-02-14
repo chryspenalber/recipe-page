@@ -39,29 +39,15 @@ My process for creating this solution began with the use of semantic HTML, ensur
 **Semantic HTML Tags Used:**
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta>
-<title>
-<link>
+
 <footer>
-<body>
 <header>
 <main>
 <section>
-<h1>
-<h2>
-<h3>
+<h1>, <h2>, <h3>
 <p>
-<ul>
-<ol>
-<li>
-<b>
-<img>
-<table>
-<tr>
-<td>
+<ul>, <ol>, <li>
+<table>, <tr>, <td>
 ```
 
 **CSS Features:**

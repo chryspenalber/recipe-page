@@ -44,6 +44,23 @@ This is a simple recipe page built using semantic HTML and CSS. It is a structur
      `<body>`, `<header>`, `<main>`, `<section>` <br>
      `<h1>`, `<h2>`, `<h3>`, `<p>`, `<ul>`, `<ol>`, `<li>`, `<b>`, `<img>`, `<table>`, `<tr>`, `<td>`  
 
+#### @import
+The `@import` rule in CSS allows you to import external fonts, such as from Google Fonts, via a link in your style sheet.
+
+#### Selectors
+- `*`: Selects all elements.
+- `#id`: Selects an element by its ID.
+- `.class`: Selects elements by their class.
+
+#### Pseudo-elements
+- `::marker`: Selects the markers of list items.
+
+#### Pseudo-classes
+- `:first-child` and `:last-child`: The `:first-child` and `:last-child` pseudo-classes match a specified element that is the first child or last child of another element.
+- `:first-of-type`, `:last-of-type`: Select the first or last element of its type among a group of sibling elements.
+- `:hover`: Selects the element on mouse over.
+- `:not()`: Selects any element that is not the element specified in the parentheses.
+
 ### What I learned
 
 This project helped reinforce the importance of semantic HTML in structuring content effectively. I also applied CSS best practices to style the page in a clean and accessible way.

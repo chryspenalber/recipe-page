@@ -16,7 +16,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
-This is a simple recipe page built using semantic HTML and CSS. It is a structured and accessible solution for displaying a recipe with ingredients, instructions, and nutritional information.
+This is a static recipe page built using semantic HTML and CSS. It is a structured and accessible solution for displaying a recipe with ingredients, instructions, and nutritional information.
 
 ### Screenshot
 
